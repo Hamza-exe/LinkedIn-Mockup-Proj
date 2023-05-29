@@ -42,7 +42,7 @@ login.addEventListener('click', function () {
             myObj.remember = true;
             localStorage.setItem('data', JSON.stringify(myObj));
         }
-        window.location.assign('/homepage.html');
+        window.location.assign("https://hamza-exe.github.io/LinkedIn-Mockup-Proj/homepage.html");
     } else {
         message.style.color = 'red';
     }
