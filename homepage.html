@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web developer | Hamza Elafifi</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png?v=2" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/home.css" media="all">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="assets/scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container1 flexbox">
+            <div class="title">
+                <h1>HambozoHub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="sign-up.html" target="_blank">Connections</a></li>
+                    <li><a id="login-button">Pages</a></li>
+                    <li><a id="login-button">Groups</a></li>
+                    <li><a id="login-button">Settings</a></li>
+                </ul>
+            </nav>
+            <div id="box">
+                <img id="pfp" src="assets/img/hamza.jfif">
+            </div>
+        </div>
+    </header>
+
+    <div id="wrapper">
+        <main>
+            <div class="container">
+                <section id="section">
+                    <div id="container">
+                        <div id="primary">
+                            <img src="assets/img/hamza.jfif">
+                            <h1>Hamza Elafifi</h1>
+                            <h2>Software Developer</h2>
+                            <p id="lower">Winnipeg, MB</p>
+                            <input id="follow" value="Follow" type="button">
+                            <input id="connect" value="Connect" type="button">
+                        </div>
+
+                        <div id="content">
+                            <h2>POSTS</h2>
+                            <hr>
+
+                            <div id="post-area">
+                                <textarea id="post-text" placeholder="Whats on your mind?"></textarea>
+                                <div id="buttons">
+                                    <div>
+                                        <i id="img1" class="fa fa-image"></i>
+                                        <input id="choose-img" type="file" onchange="uploaded()">
+                                        <span id='val'></span>
+                                        <span id='select'>Select File</span>
+                                    </div>
+                                    <input id="post" value="Post" type="button">
+                                </div>
+                            </div>
+
+                            <div id="posts">
+                                <div>
+                                    <img id="pfp0" src="assets/img/hamza.jfif">
+                                    <p id="name">Hamza Elafifi</p>
+                                    <p id="text"></p><img id="post-img" src="assets/img/img1.jpg">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div id="secondary">
+                            <h2>People you may know</h2>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
